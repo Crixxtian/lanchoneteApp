@@ -1,17 +1,36 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      Lanches
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+
+<!-- Searchbar with cancel button shown on focus -->
+<ion-searchbar showCancelButton="focus"></ion-searchbar>
+
+<ion-item>
+  <ion-thumbnail slot="start">
+    <img src="https://th.bing.com/th/id/OIP.2lXlKtf1n7iVVRQcZ5dEVwHaE8?pid=ImgDet&rs=1">
+  </ion-thumbnail>
+  <ion-label>aranha-burguer</ion-label>
+  <ion-badge color="warning">15,50</ion-badge>
+</ion-item>
+<ion-item>
+  <ion-thumbnail slot="start">
+    <img src="https://i.iheart.com/v3/re/new_assets/5f1766f2a4d4bcbecd5deb1a">
+  </ion-thumbnail>
+  <ion-label>hot-spiders</ion-label>
+  <ion-badge color="warning">10,25</ion-badge>
+</ion-item>
+<ion-item>
+  <ion-thumbnail slot="start">
+    <img src="https://croscard.com.br/rede-croscard/wp-content/uploads/2020/02/destaque-lanches.jpg">
+  </ion-thumbnail>
+  <ion-label>Burguer spider premium</ion-label>
+  <ion-badge color="warning">50,00</ion-badge>
+</ion-item>
 </ion-content>
